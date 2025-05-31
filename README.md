@@ -1,6 +1,6 @@
 ## Loan Approval Strategy Optimization
 
-This project aims to optimize the loan approval strategy using machine learning techniques. The goal is to predict whether a loan application will be approved or denied based on various applicant features and financial data. The dataset includes information about applicants, and the objective is to predict if the loan should be approved ("Y") or denied ("N").
+The project aims to optimize the loan approval strategy using machine learning techniques. Here, the goal is to predict whether a loan application will be approved or denied based on various applicant features and financial data. The dataset includes information about applicants, and the objective is to predict if the loan should be approved ("Y") or denied ("N").
 
 ### Deployed Application
 
@@ -33,29 +33,33 @@ The dataset includes the following features:
   - `N`: The loan was denied.
 
 ### Example of Data Columns:
-| Feature              | Description                             |
-|----------------------|-----------------------------------------|
-| Age                  | Age of the applicant                    |
-| Credit Score         | Credit score of the applicant           |
-| Loan Amount          | Amount requested by the applicant       |
-| Annual Income        | Annual income of the applicant          |
+
+| Feature                | Description                                     |
+|------------------------|-------------------------------------------------|
+| Age                    | Age of the applicant                            |
+| Credit Score           | Credit score of the applicant                   |
+| Loan Amount            | Amount requested by the applicant               |
+| Annual Income          | Annual income of the applicant                  |
 | Loan Approval (Target) | Whether the loan was approved (Y) or denied (N) |
 
 ## Modeling Process
 
 ### 1. Data Preprocessing
+
 The dataset was cleaned and preprocessed, including:
 - Handling missing values
 - Encoding categorical features
 - Scaling numerical features to improve model performance
 
 ### 2. Model Training
+
 The following machine learning models were used for training:
 - **Logistic Regression**
 - **Decision Tree**
 - **Random Forest**
 
 ### 3. Model Evaluation
+
 The models were evaluated based on accuracy, precision, recall, F1-score, and confusion matrix to select the best model for loan approval prediction.
 
 ## Results
@@ -105,6 +109,4 @@ The project demonstrates how machine learning can be used to optimize loan appro
 
 An application has been deployed to check the status of loan approval, enabling users to interact with the model in a user-friendly way.
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
