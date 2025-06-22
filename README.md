@@ -15,7 +15,7 @@ An application has been deployed to allow users to check the status of their loa
 5. [Installation and Setup](#installation-and-setup)
 6. [Usage](#usage)
 7. [Conclusion](#conclusion)
-8. [License](#license)
+
 
 ## Project Overview
 
